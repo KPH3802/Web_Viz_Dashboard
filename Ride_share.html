@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap Components</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">KPH Data Science Projects</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link active" href="Index.html" tabindex="-1">Home</a>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="About_me.html">About Me</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item disabled" href="Ride_share.html" aria-disabled="true">Ride Share</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+
+            </ul>
+
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12">
+                <br>
+                <h1>Pyber Ride Sharing</h1>
+                <hr><br>
+                <br>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Bubble Plot</h4>
+                <br>
+                <img src="Images/Pyber/Bubble_plot.png">
+            </div>
+
+            <div class="col-md-6">
+                <p>
+
+                    <br>In light of the continued success of ride sharing app I decided to test my data science skills
+                    using
+                    ride sharing data. I will be using matplotlib, numpy and pandas as my tools. This project has
+                    importing and
+                    reading csv files, dataframe analysis, bubble plot and pie charts.
+                    <br>
+                    <br>
+                    The chart to left provides a lot of information in a bubble chart format. First off we can see from the x-axis that urban areas tend
+                    to have more rides, followed by suburban and finally by rural. Next the y-axis informs us that the average fare is higher for rural areas, next suburban and lowest for urban areas. 
+                    There appears to be a relationship between average fare and number of rides. The more rides there are the lower the average fare which we woudl expect. The final piece of 
+                    information the chart gives us is the number of drivers per city and per city type. As we would expect, there are more drivers 
+                    in ubran areas and the least amount in rural areas. 
+                    <br>
+                    <br>
+                    <br>
+                </p>
+            </div>
+        </div>
+</body>
