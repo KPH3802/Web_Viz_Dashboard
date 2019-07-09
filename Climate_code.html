@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Pyber</title>
+    <title>Climate Code</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -43,8 +43,8 @@
                         Dropdown
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item disabled" href="Ride_share.html" aria-disabled="true">Ride Share</a>
-                        <a class="dropdown-item" href="Climate_code.html">Climate Code</a>
+                        <a class="dropdown-item" href="Ride_share.html">Ride Share</a>
+                        <a class="dropdown-item disabled" href="Climate_code.html" aria-disabled="true">Climate Code</a>
                         <!-- <div class="dropdown-divider"></div> -->
                         <a class="dropdown-item" href="LA_Parking.html">LA Parking</a>
                     </div>
@@ -59,7 +59,7 @@
         <div class="row justify-content-center">
             <div class="col-md-12">
                 <br>
-                <h1>Pyber Ride Sharing</h1>
+                <h1>Climate Code</h1>
                 <hr><br>
                 <br>
             </div>
@@ -81,11 +81,15 @@
             </div>
             <div class="col-md-6">
                 <h3 id="list-group-item-1">Brief intro:</h3>
-                <br>In light of the continued success of ride sharing app I decided to test my data science skills
-                using
-                ride sharing data. I will be using matplotlib, numpy and pandas as my tools. This project has
-                importing and
-                reading csv files, dataframe analysis, visualizations such as bubble plot and pie charts.
+                <br>
+                <p>
+                    I decided to take a vacation and relax after a long laborious 6 months of data science work. I had
+                    decided on beautiful Hawaii but before I went I wanted to pick the perfectly precise time to travel
+                    for
+                    the best tempatures and as little rain as possible. I decided to put my data science skills to work
+                    and
+                    run an analysis. Here are the folllowing charts I viewed.
+                </p>
             </div>
             <br>
             <br>
@@ -95,32 +99,28 @@
         <br>
         <br>
         <br>
-
+<div class="row">
+    <div class="col-md-12">
+        <img src="Images/Climate_code/surfs-up.png" alt="Surf's Up!" style="width: 100%">
+        <br>
+        <br>
+    </div>
+</div>
         <div class="row">
             <div class="col-md-12">
-                <h4 class="text-center" id="list-group-item-2">Bubble Plot</h4>
+                <h4 class="text-center" id="list-group-item-2">Histogram</h4>
             </div>
         </div>
         <div class="row">
             <div class="col-md-6">
                 <br>
-                <img src="Images/Pyber/Bubble_plot.png">
+                <img src="Images/Climate_code/TOBS_Hist.png" style="width: 100%">
             </div>
 
             <div class="col-md-6">
                 <p>
-                    The chart to left provides a lot of information in a bubble chart format. First off we can see
-                    from
-                    the x-axis that urban areas tend
-                    to have more rides, followed by suburban and finally by rural. Next the y-axis informs us that
-                    the
-                    average fare is higher for rural areas, next suburban and lowest for urban areas.
-                    There appears to be a relationship between average fare and number of rides. The more rides
-                    there
-                    are the lower the average fare which we woudl expect. The final piece of
-                    information the chart gives us is the number of drivers per city and per city type. As we would
-                    expect, there are more drivers
-                    in ubran areas and the least amount in rural areas.
+                    Historgram of tempatures for Hawaii and the frequency of those tempatures. Weather has a nice
+                    pleansent range of temps.
                     <br>
                     <br>
                     <br>
@@ -132,28 +132,20 @@
         <br>
         <div class="row">
             <div class="col-md-12">
-                <h4 class="text-center" id="list-group-item-3">Pie Chart #1</h4>
+                <h4 class="text-center" id="list-group-item-3">Bar Chart #1</h4>
             </div>
         </div>
         <br>
         <div class="row">
             <div class="col-md-6">
                 <br>
-                <img src="Images/Pyber/Percent_of_Total_Drivers_by_City_Type.png">
+                <img src="Images/Climate_code/precipitation.png" style="width: 100%">
             </div>
 
             <div class="col-md-6">
-                <p>
-
-                    <br>This pie chart shows the total number of drivers per city type. As we can see and would
-                    expect
-                    there are a lot more
-                    drivers in the urban areas than there are in the suburban or rural areas. I have broken out the
-                    suburban and rural areas
-                    to show just how many more there are in the urban areas and that the suburban and rural combined
-                    do
-                    not come close to the number
-                    of drivers in the urban areas.
+                <p>This is a bar chart that shows how much precipitation over the course of a year in Hawaii. It is
+                    clear there are some rainy seasons to avoid for vaction.
+                    <br>
                     <br>
                 </p>
             </div>
@@ -161,63 +153,7 @@
         <br>
         <br>
         <br>
-        <div class="row">
-            <div class="col-md-12">
-                <h4 class="text-center" id="list-group-item-4">Pie Chart #2</h4>
-            </div>
-        </div>
-        <br>
-        <div class="row">
-            <div class="col-md-6">
 
-                <br>
-                <img src="Images/Pyber/Percent_of_Total_Fares_by_City_Type_Pie_Chart.png">
-            </div>
-
-            <div class="col-md-6">
-                <p>
-
-                    <br>In light of the continued success of ride sharing app I decided to test my data science
-                    skills
-                    using
-                    ride sharing data. I will be using matplotlib, numpy and pandas as my tools. This project has
-                    importing and
-                    reading csv files, dataframe analysis, visualizations such as bubble plot and pie charts.
-                    <br>
-                    <br>
-
-                </p>
-            </div>
-        </div>
-        <br>
-        <br>
-        <br>
-        <div class="row">
-            <div class="col-md-12">
-                <h4 class="text-center" id="list-group-item-5">Pie Chart #3</h4>
-            </div>
-        </div>
-        <br>
-        <div class="row">
-            <div class="col-md-6">
-
-                <br>
-                <img src="Images/Pyber/Percentage_of_Total_Rides_by_City_Type_Pie_Chart.png">
-            </div>
-
-            <div class="col-md-6">
-                <p>
-
-                    <br>In light of the continued success of ride sharing app I decided to test my data science
-                    skills
-                    using
-                    ride sharing data. I will be using matplotlib, numpy and pandas as my tools. This project has
-                    importing and
-                    reading csv files, dataframe analysis, visualizations such as bubble plot and pie charts.
-                    <br>
-                    <br>
-                    <br>
-                </p>
-            </div>
-        </div>
+    </div>
+    </div>
 </body>

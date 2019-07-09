@@ -70,6 +70,7 @@ body {
   color: #373a3c;
   text-align: left;
   background-color: #fff;
+  background:url("Images/Index/images.jpeg")
 }
 
 [tabindex="-1"]:focus {
